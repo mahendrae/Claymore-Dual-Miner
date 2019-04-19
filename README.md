@@ -379,14 +379,14 @@ Dual mining:
 EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool "http://sia-eu1.nanopool.org:9980/miner/header?address=YOUR_SIA_WALLET&worker=YOUR_WORKER_NAME&email=YOUR_EMAIL" -dcoin sia
 
  nanopool Ethereum+Siacoin(Stratum):
-EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x -dpool stratum+tcp://sia-eu1.nanopool.org:7777 -dwal YOUR_SIA_WALLET/YOUR_WORKER/YOUR_EMAIL -dcoin sia
+EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal 0xa2eec3431007ddaa8f14c831c5499ca25939920b/Rig-Neo/mahendrae520@gmail.com -epsw x -dpool stratum+tcp://sia-eu1.nanopool.org:7777 -dwal0xa2eec3431007ddaa8f14c831c5499ca25939920b/Rig-Neo/mahendrae520@gmail.com -dcoin sia
 
-Ethereum-only mining:
+Ethereum-only mining: Rig-Neo
 
  nanopool:
    EthDcrMiner64.exe -epool eth-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x
 
-Ethereum forks mining:
+Ethereum forks mining: Rig-Neo
 
    EthDcrMiner64.exe -epool etc-eu1.nanopool.org:9999 -ewal YOUR_ETH_WALLET/YOUR_WORKER/YOUR_EMAIL -epsw x
 
